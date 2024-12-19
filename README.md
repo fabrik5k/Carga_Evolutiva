@@ -114,7 +114,7 @@ Exemplo de gráfico gerado:
 
 ## ⚠️ Limitações do Projeto
 
-- **Número de Produtos**: 47 produtos diferentes disponíveis para seleção.
+- **Número de Produtos**: 47 produtos disponíveis para seleção.
 - **Limite de Espaço**: Apenas 3 metros cúbicos de capacidade máxima.
 - **Complexidade Computacional**: Rodar todas as combinações possíveis em busca da melhor solução levaria um tempo considerável para um computador comum. No entanto, o algoritmo genético encontra uma solução otimizada em menos de **3 segundos**.
 
