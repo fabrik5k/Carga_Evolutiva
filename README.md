@@ -7,8 +7,8 @@ Este projeto implementa um **algoritmo genético** sem bibliotecas externas para
 O projeto utiliza uma população de indivíduos (soluções candidatas), onde cada indivíduo representa uma combinação de produtos a serem transportados. O algoritmo evolui através de várias gerações, aplicando os seguintes passos:
 
 1. **Avaliação** da aptidão (fitness) de cada indivíduo com base no valor total e no espaço ocupado.
-2. **Seleção** dos melhores indivíduos para reprodução.
-3. **Cruzamento (Crossover)** para gerar novos indivíduos.
+2. **Seleção** dos melhores indivíduos para reprodução utilizando o método da roleta viciada.
+3. **Cruzamento (Crossover)** para gerar novos indivíduos usando um ponto de corte gerado aleatoriamente.
 4. **Mutação** para manter a diversidade da população.
 
 O objetivo é encontrar a combinação de produtos que maximize o valor total transportado sem exceder o limite de espaço.
