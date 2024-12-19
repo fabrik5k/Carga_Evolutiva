@@ -85,21 +85,21 @@ Exemplo de gráfico gerado:
 
 ### **Execução 1**
 
-- **Melhor Fitness**: `950`
-- **Produtos Transportados**: `['Produto A', 'Produto B', 'Produto C']`
-- **Geração do Melhor Fitness**: `342`
+- **Melhor Fitness**: `R$48.464,03`
+- **Produtos Transportados**: `['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas Electrolux', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas Panasonic', 'Microondas Panasonic', 'Notebook Asus']`
+- **Geração do Melhor Fitness**: `375`
 
 ### **Execução 2**
 
-- **Melhor Fitness**: `870`
-- **Produtos Transportados**: `['Produto B', 'Produto C']`
-- **Geração do Melhor Fitness**: `295`
+- **Melhor Fitness**: `R$45.892,18`
+- **Produtos Transportados**: `['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas LG', 'Microondas Panasonic', 'Microondas Panasonic', 'Notebook Asus']`
+- **Geração do Melhor Fitness**: `472`
 
 ### **Execução 3**
 
-- **Melhor Fitness**: `920`
-- **Produtos Transportados**: `['Produto A', 'Produto C']`
-- **Geração do Melhor Fitness**: `415`
+- **Melhor Fitness**: `R$47.426,18`
+- **Produtos Transportados**: `['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas Panasonic', 'Notebook Asus']`
+- **Geração do Melhor Fitness**: `491`
 
 ---
 
