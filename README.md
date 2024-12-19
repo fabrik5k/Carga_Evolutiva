@@ -20,8 +20,8 @@ O objetivo é encontrar a combinação de produtos que maximize o valor total tr
 ### **1. Pré-requisitos**
 
 - **Python 3.x** instalado.
-- Servidor **MySQL** configurado com uma base de dados `produtos`.
-- Biblioteca `mysql-connector-python` instalada.
+- Servidor **MySQL** configurado com uma base de dados produtos.
+- Biblioteca mysql-connector-python instalada.
 
 Para instalar a biblioteca:
 
@@ -85,30 +85,38 @@ Exemplo de gráfico gerado:
 
 ### **Execução 1**
 
-- **Melhor Fitness**: `R$48.464,03`
-- **Produtos Transportados**: `['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas Electrolux', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas Panasonic', 'Microondas Panasonic', 'Notebook Asus']`
-- **Geração do Melhor Fitness**: `375`
+- **Melhor Fitness**: R$48.464,03
+- **Produtos Transportados**: ['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas Electrolux', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas Panasonic', 'Microondas Panasonic', 'Notebook Asus']
+- **Geração do Melhor Fitness**: 375
 
 ### **Execução 2**
 
-- **Melhor Fitness**: `R$45.892,18`
-- **Produtos Transportados**: `['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas LG', 'Microondas Panasonic', 'Microondas Panasonic', 'Notebook Asus']`
-- **Geração do Melhor Fitness**: `472`
+- **Melhor Fitness**: R$45.892,18
+- **Produtos Transportados**: ['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas LG', 'Microondas Panasonic', 'Microondas Panasonic', 'Notebook Asus']
+- **Geração do Melhor Fitness**: 472
 
 ### **Execução 3**
 
-- **Melhor Fitness**: `R$47.426,18`
-- **Produtos Transportados**: `['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas Panasonic', 'Notebook Asus']`
-- **Geração do Melhor Fitness**: `491`
+- **Melhor Fitness**: R$47.426,18
+- **Produtos Transportados**: ['Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'Iphone 6', 'TV 55', 'TV 50', 'TV 50', 'TV 50', 'TV 42', 'TV 42', 'TV 42', 'TV 42', 'Notebook Dell', 'Microondas LG', 'Microondas LG', 'Microondas LG', 'Microondas Panasonic', 'Notebook Asus']
+- **Geração do Melhor Fitness**: 491
 
 ---
 
 ## 🛠️ Detalhes Técnicos
 
-- **Número de Gerações**: `500`
-- **Tamanho da População**: `20`
-- **Taxa de Mutação**: `1%`
-- **Limite de Espaço**: `3.0`
+- **Número de Gerações**: 500
+- **Tamanho da População**: 20
+- **Taxa de Mutação**: 1%
+- **Limite de Espaço**: 3.0
+
+---
+
+## ⚠️ Limitações do Projeto
+
+- **Número de Produtos**: 47 produtos diferentes disponíveis para seleção.
+- **Limite de Espaço**: Apenas 3 metros cúbicos de capacidade máxima.
+- **Complexidade Computacional**: Rodar todas as combinações possíveis em busca da melhor solução levaria um tempo considerável para um computador comum. No entanto, o algoritmo genético encontra uma solução otimizada em menos de **3 segundos**.
 
 ---
 
