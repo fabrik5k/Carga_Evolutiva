@@ -118,6 +118,35 @@ Exemplo de gráfico gerado:
 - **Limite de Espaço**: Apenas 3 metros cúbicos de capacidade máxima.
 - **Complexidade Computacional**: Rodar todas as combinações possíveis em busca da melhor solução levaria um tempo considerável para um computador comum. No entanto, o algoritmo genético encontra uma solução otimizada em menos de **3 segundos**.
 
+## 🔢 Número Total de Combinações
+
+Dado um conjunto de **49 produtos**, o número total de combinações possíveis é a soma de todas as combinações de tamanho **r** entre **1** e **49**. Isso pode ser calculado como:
+
+Soma das combinações = **2 elevado a 49 menos 1**
+
+Resultado:
+
+2 elevado a 49 é aproximadamente **562 trilhões (562.949.953.421.312)**.
+
+Portanto, o número total de combinações possíveis é aproximadamente **562 trilhões**.
+
+## 🕒 Tempo de Execução Estimado
+
+Supondo que o algoritmo leve **1 microssegundo (0,000001 segundo)** para avaliar cada combinação, o tempo total necessário para examinar todas as combinações possíveis é:
+
+562.949.953.421.312 combinações × 0,000001 segundo por combinação ≈ **562.949.953 segundos**
+
+Convertendo para unidades maiores:
+
+- **Em minutos:** aproximadamente 9.382.499 minutos  
+- **Em horas:** aproximadamente 156.375 horas  
+- **Em dias:** aproximadamente 6.515 dias  
+- **Em anos:** aproximadamente 17,8 anos  
+
+### ⚠️ Conclusão
+
+Analisar todas as combinações possíveis de **49 produtos** com força bruta levaria cerca de **17,8 anos**, mesmo com processamento otimizado. Este cenário destaca a necessidade de algoritmos heurísticos, como os **algoritmos genéticos** para resolver o problema em um tempo viável. Por exemplo, uma execução desse algoritmo não levou nem 3 segundos para gerar os resultados apresentados. Embora esses resultados possam não ser os absolutamente melhores, eles são ótimos e suficientemente bons para a maioria dos casos práticos.
+
 ---
 
 ## 📝 Autor
